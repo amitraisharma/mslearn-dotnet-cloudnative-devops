@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: '2fec1ff6-fadc-4ec6-90ad-664ec59964a4'
   imageRepository: 'productservice'
   containerRegistry: 'acseshop3543255428.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '**/DockerfileProducts.acr'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'acseshop3543255428fc01-auth'
 
